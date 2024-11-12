@@ -90,12 +90,12 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/nhancio/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.instagram.com/nhancio.ai/" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-instagram"></i> Instagram
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://twitter.com/soul4tech" target="_blank" rel="noopener noreferrer">
                     <i className="fa-brands fa-twitter"></i> Twitter
                   </a>
                 </li>
@@ -114,6 +114,4 @@ const Footer = () => {
     </section>
   );
 };
-
 export default Footer;
-
