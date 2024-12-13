@@ -16,7 +16,7 @@ const HomePage = () => {
       <Home/>
       <Services/>
       <ChooseUs/>
-      {/* <OurWork/> */}
+      <OurWork/>
       {/* <ContactUs/> */}
       <AboutUs/>
       <ContactUsHomePage/>

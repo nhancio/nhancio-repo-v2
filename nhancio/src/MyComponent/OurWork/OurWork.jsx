@@ -11,16 +11,16 @@ const OurWork = () => {
   const [activeComponent, setActiveComponent] = useState('project');
 
   const renderComponent = () => {
-    switch (activeComponent) {
-      case 'project':
-        return <Services/>;
-      case 'client':
-        return <Client/>;
-      case 'app':
-        return <App />;
-      default:
-        return null;
-    }
+    // switch (activeComponent) {
+    //   case 'project':
+    //     return <Services/>;
+    //   case 'client':
+    //     return <Client/>;
+    //   case 'app':
+    //     return <App />;
+    //   default:
+    //     return null;
+    // }
   };
 
   return (
