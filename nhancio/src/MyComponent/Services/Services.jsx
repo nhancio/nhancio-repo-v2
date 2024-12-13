@@ -54,34 +54,34 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="main-service-container">
-    <div className="container services-container">
-      <h2>Services we provide</h2>
-      <div className="services-grid">
-        {servicesData.map((service, index) => (
-          <div key={index} className="service-card">
-            <div className="service-content">
-              <h3>{service.title}</h3>
-              <p>{service.description}</p>
-              <div className="tags">
-                {service.tags.map((tag, i) => (
-                  <span key={i} className="tag">
-                    {tag}
-                  </span>
-                ))}
+    <div className="main-service-container" id="services">
+      <div className="container services-container">
+        <h2 className="service-text">Services we provide</h2>
+        <div className="services-grid">
+          {servicesData.map((service, index) => (
+            <div key={index} className="service-card">
+              <div className="service-content">
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+                <div className="tags">
+                  {service.tags.map((tag, i) => (
+                    <span key={i} className="tag">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <button className="learn-more">Know More</button>
               </div>
-              <button className="learn-more">Learn More</button>
+              <img
+                src={service.image}
+                alt={service.title}
+                className="service-image"
+              />
             </div>
-            <img
-              src={service.image}
-              alt={service.title}
-              className="service-image"
-            />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
-  </div>
   );
 };
 

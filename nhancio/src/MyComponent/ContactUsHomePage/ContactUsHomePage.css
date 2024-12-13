@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.contact-us-container {
+    background-color: #1a1a1a;
+    /* Dark background */
+    color: #f1f1f1;
+    /* Light text */
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contact-us-heading {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+    /* Highlighted heading color */
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Vertically centers the content */
+    align-items: center;
+    /* Horizontally centers the content */
+    background-color: #292929;
+    /* Slightly lighter dark */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    /* Border color matching theme */
+    width: 300px;
+    height: 200px;
+    /* Fixed height to ensure vertical centering */
+    margin: 0 auto;
+    /* Centers the box itself */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.contact-item i {
+    font-size: 1.2rem;
+    color: #fff;
+    /* Icon color */
+}
+
+.contact-footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #cccccc;
+    /* Subdued text color */
+}

@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "./Images/nhancio_logo.webp";
+import logo from "./Images/Nhancio.png";
 import "./Navbar.css";
 import { useState , useEffect } from "react";
+import Services from "../Services/Services";
 
 const Navbar = () => {
   const [navbarLight, setNavbarLight] = useState(false);
@@ -73,22 +74,22 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link"  href="#services" >
                   Services
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Projects
+                  Our Work
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#aboutUs" >
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link abc" href="#">
+                <a className="nav-link abc" href="#contactUsHomePage">
                   Contact Us
                 </a>
               </li>
@@ -99,7 +100,7 @@ const Navbar = () => {
                   }`}
                   href="#"
                 >
-                  Learn&Earn
+                  Careers
                 </a>
               </li>
             </ul>
