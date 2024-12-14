@@ -15,35 +15,35 @@ const Home = () => {
           <div className="main-section">
             <div className="we">
               <h1>
-                Empowering Your Business <br />
-                with <span className="highlight">Tailored Digital Solutions</span>
+                AI-powered digital solutions <br />
+                with <span className="highlight">Enhance your business your nhancio</span>
               </h1>
             </div>
             <div className="p">
               <p>
-                Innovative, Cost-Efficient, and Scalable Solutions to Drive Your
-                Business Forward
+                AI-Driven, Cost-Efficient, and Scalable Solutions to Accelerate Your Business Growth
               </p>
             </div>
             <div className="features">
               <div className="feature-box">
                 <h3>
-                  Team <br />
-                  Augmentation
+                  AI workflows <br />
+                  Data Science
                 </h3>
-                <p>Enabling your team to reach project goals.</p>
+                <p>Nhancio's AI workflows and data science solutions empower businesses with smarter decision-making and optimized operations</p>
                 <div className="bottom">
                   <div className="icons">
-                    <FontAwesomeIcon icon={faUserGroup} />
+                    <FontAwesomeIcon icon={faRobot} />
                   </div>
+                  
                   <div className="navigate">
                     <FontAwesomeIcon icon={faArrowRight} />
                   </div>
                 </div>
               </div>
               <div className="feature-box">
-                <h3>Custom Software Development</h3>
-                <p>Build software tailored to your business.</p>
+                <h3>Website & App Development</h3>
+                <p>Build web and mobile apps with AI-driven innovation, ensuring seamless performance, scalability, and user engagement</p>
                 <div className="bottom">
                   <div className="icons">
                     <FontAwesomeIcon icon={faCode} />
@@ -55,13 +55,13 @@ const Home = () => {
               </div>
               <div className="feature-box">
                 <h3>
-                  AI<br />
-                  Development
+                  Marketing &<br />
+                  Design using AI
                 </h3>
-                <p>Disrupt the market.</p>
+                <p>Enhance your marketing and design with AI-powered creativity, driving engagement, personalized experiences & impactful branding</p>
                 <div className="bottom">
                   <div className="icons">
-                    <FontAwesomeIcon icon={faRobot} />
+                    <FontAwesomeIcon icon={faUserGroup} />
                   </div>
                   <div className="navigate">
                     <FontAwesomeIcon icon={faArrowRight} />
