@@ -108,7 +108,7 @@ const Footer = () => {
       <section id="copy-right">
         <div className="copy-right-sec">
           <i className="fa-solid fa-copyright"></i> 2024 Powered By
-          <a href="#"> Nhancio</a>
+          <a href="javascript:void(0);"> Nhancio</a>
         </div>
       </section>
     </section>

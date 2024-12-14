@@ -40,7 +40,7 @@ const Navbar = () => {
       <nav className={`navbar navbar-expand-lg sticky-top ${navbarLight ? 'navbar-light bg-light' : 'navbar-dark bg-dark'}`}>
         <div className="container-fluid d-flex align-items-center">
           {/* Logo and Brand Name */}
-          <a className="navbar-brand d-flex align-items-center me-0" href="#">
+          <a className="navbar-brand d-flex align-items-center me-0" href="javascript:void(0);">
             <img
               src={logo}
               alt="Nhancio Logo"

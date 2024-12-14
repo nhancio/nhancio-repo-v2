@@ -152,7 +152,7 @@ const ContactUs = () => {
             <button type="submit">Send request</button>
             <p className="privacy-text">
               By sending this form, I confirm that I have read and accepted the{" "}
-              <a href="/">Privacy Policy</a>.
+              <a href="javascript:void(0);">Privacy Policy</a>.
             </p>
           </div>
         </div>
@@ -182,6 +182,7 @@ const ContactUs = () => {
                         key={i}
                         src="https://diffco.us/wp-content/themes/diffconew/static-template/build/images/home-v5/ic_star.svg"
                         className={i < testimonial.rating ? "filled-star" : ""}
+                        alt="description of the image"
                       />
                     ))}
                   </div>
