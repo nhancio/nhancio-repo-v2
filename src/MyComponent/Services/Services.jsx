@@ -52,7 +52,6 @@ const servicesData = [
   },
 ];
 
-
 const Services = () => {
   return (
     <div className="main-service-container" id="services">
@@ -70,9 +69,9 @@ const Services = () => {
                       {tag}
                     </span>
                   ))}
-{/*                 </div>
+                </div>
                 <button className="learn-more">Know More</button>
-              </div> */}
+              </div>
               <img
                 src={service.image}
                 alt={service.title}
