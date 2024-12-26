@@ -16,7 +16,7 @@ const Home = () => {
             <div className="we">
               <h1>
                 AI-powered digital solutions <br />
-                with <span className="highlight">Enhance your business your nhancio</span>
+                with <span className="highlight">Enhance your business with nhancio</span>
               </h1>
             </div>
             <div className="p">
@@ -26,19 +26,13 @@ const Home = () => {
             </div>
             <div className="features">
               <div className="feature-box">
-                <h3>
-                  AI workflows <br />
-                  Data Science
-                </h3>
+                <h3> AI workflows & Data Science </h3>
                 <p>Nhancio's AI workflows and data science solutions empower businesses with smarter decision-making and optimized operations</p>
                 <div className="bottom">
                   <div className="icons">
                     <FontAwesomeIcon icon={faRobot} />
                   </div>
                   
-                  <div className="navigate">
-                    <FontAwesomeIcon icon={faArrowRight} />
-                  </div>
                 </div>
               </div>
               <div className="feature-box">
@@ -47,9 +41,6 @@ const Home = () => {
                 <div className="bottom">
                   <div className="icons">
                     <FontAwesomeIcon icon={faCode} />
-                  </div>
-                  <div className="navigate">
-                    <FontAwesomeIcon icon={faArrowRight} />
                   </div>
                 </div>
               </div>
@@ -63,9 +54,9 @@ const Home = () => {
                   <div className="icons">
                     <FontAwesomeIcon icon={faUserGroup} />
                   </div>
-                  <div className="navigate">
+{/*                   <div className="navigate">
                     <FontAwesomeIcon icon={faArrowRight} />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
