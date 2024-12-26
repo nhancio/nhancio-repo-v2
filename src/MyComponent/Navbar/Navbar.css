@@ -40,12 +40,12 @@
   }
 
   .navbar-dark .nav-link {
-    color: #fafafa;
+    color: #000;
     transition: transform color 1s ease; 
   }
   
   .navbar-light .nav-link {
-    color: #000;
+    color: #fafafa;
     transition: transform color 1s ease; 
   }
 
@@ -58,15 +58,15 @@
   }
   
   .navbar-light .nav-link:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: #000;
     transition: background-color 0.7s ease, color 0.7s ease;
     border-radius: 5%;
   }
 
   .navbar-dark .nav-link:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: #fafafa;
     transition: background-color 0.7s ease, color 0.7s ease;
     border-radius: 5%;
   }
