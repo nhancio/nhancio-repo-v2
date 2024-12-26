@@ -9,48 +9,49 @@ import s6 from "./Images/s6.png";
 
 const servicesData = [
   {
-    title: "AI Development",
+    title: "AI Workflows",
     description:
-      "Our team is experienced in AI, data analysis, machine learning, and implementing cutting-edge technologies.",
-    tags: ["LLM", "Tensorflow", "Python", "PyTorch", "Computer Vision"],
+      "Automate workflows using AI-powered agents for improved efficiency and seamless task management.",
+    tags: ["Automation", "AI Agents", "Workflow Optimization", "Task Management", "Process Automation", "Productivity"],
     image: s4,
   },
   {
-    title: "Mobile Development",
+    title: "Data Science",
     description:
-      "We specialize in developing native and cross-platform mobile applications for iOS and Android.",
-    tags: ["Swift", "React Native", "Flutter", "Java", "Kotlin"],
+      "Transform data into actionable insights through advanced analysis, predictive modeling, and statistical techniques.",
+    tags: ["Analytics", "Data Insights", "Predictive Modeling", "Statistics", "Machine Learning", "Data Engineering"],
     image: s2,
   },
   {
-    title: "Web Development",
+    title: "Website Development",
     description:
-      "Our developers can create web solutions that are tailored to your needs, easy to manage with popular CMS.",
-    tags: ["Contentful", "Magento", "WP", "Shopify"],
+      "Build modern, responsive websites tailored for your needs, using cutting-edge tools and frameworks.",
+    tags: ["CMS", "Web Solutions", "Responsive Design", "Web Apps", "Contentful", "User Experience"],
     image: s6,
   },
   {
-    title: "Front-end Development",
+    title: "Application Development",
     description:
-      "We are experienced in building modular, high-performance web applications for corporate clients and startups.",
-    tags: ["React", "Angular", "Electron", "Next.js"],
+      "Create multi-platform apps with Flutter and React, ensuring seamless performance across devices.",
+    tags: ["Flutter", "React Native", "Cross-Platform", "Mobile Apps", "App Design", "Scalability"],
     image: s5,
   },
   {
-    title: "Back-end Development",
+    title: "Marketing",
     description:
-      "We are experienced in high-load and complex backend infrastructure development for mobile or web apps and enterprise services.",
-    tags: ["Node.js", "Go", "Python", "C#", "Java"],
+      "Leverage AI tools, UGC, and podcasts for innovative and organic product and service promotion.",
+    tags: ["AI Marketing", "UGC", "Organic Growth", "Podcasting", "Digital Strategy", "Campaign Optimization"],
     image: s3,
   },
   {
-    title: "Team Augmentation",
+    title: "Design",
     description:
-      "We provide engineers or teams tailored to your project, ensuring skill and compatibility with your goals and culture.",
-    tags: ["Cultural fit", "Top 1%", "Instant hire"],
+      "Redefine creativity using AI-driven tools and collaborative design communities for unique visual storytelling.",
+    tags: ["AI Design", "Creative Communities", "Visual Storytelling", "Innovation", "UX/UI Design", "Prototyping"],
     image: s1,
   },
 ];
+
 
 const Services = () => {
   return (
@@ -69,9 +70,9 @@ const Services = () => {
                       {tag}
                     </span>
                   ))}
-                </div>
+{/*                 </div>
                 <button className="learn-more">Know More</button>
-              </div>
+              </div> */}
               <img
                 src={service.image}
                 alt={service.title}
