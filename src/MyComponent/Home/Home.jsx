@@ -15,8 +15,8 @@ const Home = () => {
           <div className="main-section">
             <div className="we">
               <h1>
-                AI-powered digital solutions <br />
-                with <span className="highlight">Enhance your business with nhancio</span>
+                <span className="highlight">AI-powered digital solutions</span> <br />
+                <span className="highlight">Enhance your business with nhancio</span>
               </h1>
             </div>
             <div className="p">
