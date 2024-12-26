@@ -17,7 +17,6 @@ const HomePage = () => {
       <Services/>
       <ChooseUs/>
       <OurWork/>
-      {/* <ContactUs/> */}
       <AboutUs/>
       <ContactUsHomePage/>
       <Footer/>
