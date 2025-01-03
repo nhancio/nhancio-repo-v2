@@ -70,3 +70,22 @@
     transition: background-color 0.7s ease, color 0.7s ease;
     border-radius: 5%;
   }
+
+/* Default toggler (not scrolled) */
+.toggler-light {
+  border-color: black;
+  color: black;
+}
+
+/* Toggler when scrolled */
+.toggler-dark {
+  border-color: white;
+  color: white;
+}
+
+/* Optional: Style for hover/focus states */
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust hover effects as desired */
+  transition: background-color 0.3s ease;
+}
