@@ -1,0 +1,11 @@
+.ourWorkClient img{
+    height: auto;
+    width: 150px;
+    border: none;
+    outline: none;
+}
+
+.ourWorkClient .a{
+    text-decoration: none; 
+    outline: none;
+}
