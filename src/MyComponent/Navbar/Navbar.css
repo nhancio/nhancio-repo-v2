@@ -40,12 +40,14 @@
   }
 
   .navbar-dark .nav-link {
-    color: #000;
+    color: #fff;
     transition: transform color 1s ease; 
   }
   
   .navbar-light .nav-link {
-    color: #fafafa;
+    -webkit-text-fill-color: #0000;
+    background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+    -webkit-background-clip: text;
     transition: transform color 1s ease; 
   }
 
