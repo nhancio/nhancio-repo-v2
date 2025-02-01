@@ -12,13 +12,14 @@ import qa from './Images/qa.jpeg'
 import dreamsTwo from './Images/dreams-2.jpg'
 import HeroBgFour from './Images/hero-bg4.jpg'
 import work from './Images/work.jpg'
+import { Link } from "react-router-dom";
 
 
 const Career = () => {
   return (
     <>
-      <Navbar />
 
+    <Navbar/>
       <div class="hero-content-overlay" id="Home">
         <div class="container">
           <div class="row">
@@ -41,7 +42,7 @@ const Career = () => {
                   </p>
                 </div>
                 <footer class="entry-footer read-more">
-                  <a href="#About">Learn more</a>
+                  <Link to="www.learn.nhancio.com">Learn more</Link>
                 </footer>
               </div>
             </div>
@@ -191,14 +192,14 @@ const Career = () => {
             >
               <div class="course-content">
                 <figure class="course-thumbnail">
-                  <a>
+                  <Link>
                     <img src={webw} alt="" />
-                  </a>
+                  </Link>
                 </figure>
                 <div class="course-content-wrap">
                   <header class="entry-header">
                     <h2 class="entry-title">
-                      <a>Web Development</a>
+                      <Link>Web Development</Link>
                     </h2>
                     <div class="entry-meta flex align-items-center">
                       <div class="course-date">
@@ -209,12 +210,11 @@ const Career = () => {
                   </header>
                   <footer class="entry-footer flex justify-content-between align-items-center">
                     <div class="course-ratings flex justify-content-end align-items-center btn">
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
-                        target="_blank"
-                      >
+                      <Link
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
+                     >
                         Apply now
-                      </a>
+                      </Link>
                     </div>
                   </footer>
                 </div>
@@ -227,14 +227,14 @@ const Career = () => {
             >
               <div class="course-content">
                 <figure class="course-thumbnail">
-                  <a>
+                  <Link>
                     <img src={androidOne} alt="" />
-                  </a>
+                  </Link>
                 </figure>
                 <div class="course-content-wrap">
                   <header class="entry-header">
                     <h2 class="entry-title">
-                      <a>App Development</a>
+                      <Link>App Development</Link>
                     </h2>
                     <div class="entry-meta flex align-items-center">
                       <div class="course-date">
@@ -245,12 +245,12 @@ const Career = () => {
                   </header>
                   <footer class="entry-footer flex justify-content-between align-items-center">
                     <div class="course-ratings flex justify-content-end align-items-center btn">
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
+                      <Link
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
                         target="_blank"
                       >
                         Apply now
-                      </a>
+                      </Link>
                     </div>
                   </footer>
                 </div>
@@ -264,14 +264,14 @@ const Career = () => {
             >
               <div class="course-content">
                 <figure class="course-thumbnail">
-                  <a>
+                  <Link>
                     <img src={graphicdesign} alt="" />
-                  </a>
+                  </Link>
                 </figure>
                 <div class="course-content-wrap">
                   <header class="entry-header">
                     <h2 class="entry-title">
-                      <a>Graphic designing</a>
+                      <Link>Graphic designing</Link>
                     </h2>
                     <div class="entry-meta flex align-items-center">
                       <div class="course-date">
@@ -281,12 +281,12 @@ const Career = () => {
                   </header>
                   <footer class="entry-footer flex justify-content-between align-items-center">
                     <div class="course-ratings flex justify-content-end align-items-center btn">
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
+                      <Link
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
                         target="_blank"
                       >
                         Apply now
-                      </a>
+                      </Link>
                     </div>
                   </footer>
                 </div>
@@ -299,14 +299,14 @@ const Career = () => {
             >
               <div class="course-content">
                 <figure class="course-thumbnail">
-                  <a>
+                  <Link>
                     <img src={machine} alt="" />
-                  </a>
+                  </Link>
                 </figure>
                 <div class="course-content-wrap">
                   <header class="entry-header">
                     <h2 class="entry-title">
-                      <a>Digital marketing with AI</a>
+                      <Link>Digital marketing with AI</Link>
                     </h2>
                     <div class="entry-meta flex align-items-center">
                       <div class="course-date">
@@ -316,12 +316,12 @@ const Career = () => {
                   </header>
                   <footer class="entry-footer flex justify-content-between align-items-center">
                     <div class="course-ratings flex justify-content-end align-items-center btn">
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
+                      <Link
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
                         target="_blank"
                       >
                         Apply now
-                      </a>
+                      </Link>
                     </div>
                   </footer>
                 </div>
@@ -334,14 +334,14 @@ const Career = () => {
             >
               <div class="course-content">
                 <figure class="course-thumbnail">
-                  <a>
+                  <Link>
                     <img src={datascience} alt="" />
-                  </a>
+                  </Link>
                 </figure>
                 <div class="course-content-wrap">
                   <header class="entry-header">
                     <h2 class="entry-title">
-                      <a>Data Science and AI</a>
+                      <Link>Data Science and AI</Link>
                     </h2>
                     <div class="entry-meta flex align-items-center">
                       <div class="course-date">
@@ -352,12 +352,12 @@ const Career = () => {
                   </header>
                   <footer class="entry-footer flex justify-content-between align-items-center">
                     <div class="course-ratings flex justify-content-end align-items-center btn">
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
+                      <Link
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
                         target="_blank"
                       >
                         Apply now
-                      </a>
+                      </Link>
                     </div>
                   </footer>
                 </div>
@@ -370,14 +370,14 @@ const Career = () => {
             >
               <div class="course-content">
                 <figure class="course-thumbnail">
-                  <a>
+                  <Link>
                     <img src={qa} alt="" />
-                  </a>
+                  </Link>
                 </figure>
                 <div class="course-content-wrap">
                   <header class="entry-header">
                     <h2 class="entry-title">
-                      <a>QA & Testing</a>
+                      <Link>QA & Testing</Link>
                     </h2>
                     <div class="entry-meta flex align-items-center">
                       <div class="course-date">
@@ -387,12 +387,12 @@ const Career = () => {
                   </header>
                   <footer class="entry-footer flex justify-content-between align-items-center">
                     <div class="course-ratings flex justify-content-end align-items-center btn">
-                      <a
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
+                      <Link
+                        to="https://docs.google.com/forms/d/e/1FAIpQLSd9TuXoa7D2TrrDxALFiCyih6_QT5OYzosETb-lGukcUY0vPQ/viewform"
                         target="_blank"
                       >
                         Apply now
-                      </a>
+                      </Link>
                     </div>
                   </footer>
                 </div>
@@ -455,9 +455,9 @@ const Career = () => {
             <div class="col-12 col-lg-6">
               <div class="featured-event-content">
                 <figure class="event-thumbnail position-relative m-0">
-                  <a>
+                  <Link>
                     <img src={HeroBgFour} alt="" />
-                  </a>
+                  </Link>
                 </figure>
               </div>
             </div>
@@ -477,12 +477,12 @@ const Career = () => {
                 <p className="fontGrey">Apply now and let us help you unlock your full potential!</p>
                 <footer class="entry-footer flex justify-content-between align-items-center">
                   <div class="course-ratings flex justify-content-end align-items-center btn">
-                    <a
-                      href="https://forms.gle/E6NZ2S6V92Z9AtgKA"
+                    <Link
+                      to="https://forms.gle/E6NZ2S6V92Z9AtgKA"
                       target="_blank"
                     >
                       Apply now
-                    </a>
+                    </Link>
                   </div>
                 </footer>
               </div>
@@ -522,9 +522,9 @@ const Career = () => {
             <div class="col-12 col-lg-6">
               <div class="featured-event-content">
                 <figure class="event-thumbnail position-relative m-0">
-                  <a>
+                  <Link>
                     <img src={work} alt="" />
-                  </a>
+                  </Link>
                 </figure>
               </div>
             </div>
@@ -546,7 +546,7 @@ const Career = () => {
         </div>
       </section>
 
-      <Footer />
+     <Footer/>
     </>
   );
 };

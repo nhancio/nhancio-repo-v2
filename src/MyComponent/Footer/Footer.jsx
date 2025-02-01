@@ -19,9 +19,9 @@ const Footer = () => {
               <h2>Quick Links</h2>
               <ul>
                 <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#aboutUs">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contactUsHomePage">Contact</a></li>
               </ul>
             </div>
             
@@ -57,7 +57,7 @@ const Footer = () => {
       <section id="copy-right">
         <div className="copy-right-sec">
           <i className="fa-solid fa-copyright"></i> 2024 Powered By
-          <a href="javascript:void(0);"> Nhancio</a>
+          <a href="#Home"> Nhancio</a>
         </div>
       </section>
     </section>

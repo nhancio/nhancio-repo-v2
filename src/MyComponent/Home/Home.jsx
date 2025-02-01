@@ -6,7 +6,7 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className="content-wrapper">
+    <div className="content-wrapper" id="Home">
       <video id="backgroundVideo" autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>
@@ -54,9 +54,9 @@ const Home = () => {
                   <div className="icons">
                     <FontAwesomeIcon icon={faUserGroup} />
                   </div>
-{/*                   <div className="navigate">
+                  <div className="navigate">
                     <FontAwesomeIcon icon={faArrowRight} />
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>

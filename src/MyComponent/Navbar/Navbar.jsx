@@ -31,7 +31,7 @@
 //     >
 //       <div className="container-fluid d-flex align-items-center">
 //         {/* Logo */}
-//         <a className="navbar-brand d-flex align-items-center me-0" href="/">
+//         <Link className="navbar-brand d-flex align-items-center me-0" to="/">
 //           <img
 //             src={logo}
 //             alt="Nhancio Logo"
@@ -40,7 +40,7 @@
 //             className="d-inline-block align-top"
 //           />
 //           <span className="ms-1 gradient-text">Nhancio</span>
-//         </a>
+//       </Link> 
 
 //         {/* Navbar toggler for mobile */}
 //         <button
@@ -64,19 +64,19 @@
 //               </Link>
 //             </li>
 //             <li className="nav-item">
-//               <a className="nav-link" href="#services">
+//               <Link className="nav-link" to="#services">
 //                 Services
-//               </a>
+//             </Link> 
 //             </li>
 //             <li className="nav-item">
-//               <a className="nav-link" href="#aboutUs">
+//               <Link className="nav-link" to="#aboutUs">
 //                 About Us
-//               </a>
+//             </Link> 
 //             </li>
 //             <li className="nav-item">
-//               <a className="nav-link" href="#contactUsHomePage">
+//               <Link className="nav-link" to="#contactUsHomePage">
 //                 Contact Us
-//               </a>
+//             </Link> 
 //             </li>
 //             <li className="nav-item">
 //               <Link to="/Career"
@@ -126,10 +126,10 @@ const Navbar = () => {
     <nav
       className={`navbar navbar-expand-lg sticky-top ${
         navbarLight ? "navbar-light bg-light" : "navbar-dark bg-dark"
-      }`}
+      }`} 
     >
       <div className="container-fluid d-flex align-items-center">
-        <a className="navbar-brand d-flex align-items-center me-0" href="/">
+        <Link className="navbar-brand d-flex align-items-center me-0" to="/">
           <img
             src={logo}
             alt="Nhancio Logo"
@@ -138,7 +138,7 @@ const Navbar = () => {
             className="d-inline-block align-top"
           />
           <span className="ms-1 gradient-text">Nhancio</span>
-        </a>
+      </Link> 
 
         <button
           className={`navbar-toggler ${
@@ -157,24 +157,24 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">
+              <a className="nav-link" href="/">
                 Home
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#services">
                 Services
-              </a>
+            </a> 
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#aboutUs">
                 About Us
-              </a>
+            </a> 
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contactUsHomePage">
                 Contact Us
-              </a>
+            </a> 
             </li>
             <li className="nav-item">
               <Link

@@ -1,5 +1,5 @@
 .footer {
-  background-color: #ffffff;
+  background-color: #212529;
   color: #333;
   padding: 40px 0;
   font-family: Arial, sans-serif;
@@ -20,7 +20,11 @@
   margin: 0 auto 10px;
 }
 .footer h2 {
-  color: #333;
+
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+  -webkit-background-clip: text;
+
   margin-bottom: 15px;
   font-size: 16px;
 }
@@ -33,7 +37,10 @@
   margin-bottom: 10px;
 }
 .footer ul li a {
-  color: #666;
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+  -webkit-background-clip: text;
+
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -43,7 +50,10 @@
 .footer-logo p {
   margin: 10px 0 0;
   font-size: 14px;
-  color: #777;
+  -webkit-text-fill-color: #0000;
+  background: linear-gradient(90deg, #00d2ff, #3a7bd5);
+  -webkit-background-clip: text;
+
   text-align: center;
 }
 .footer .quick-links {
