@@ -1,11 +1,20 @@
 .ourWorkClient img{
     height: auto;
     width: 150px;
-    border: none;
+   
     outline: none;
 }
 
 .ourWorkClient .a{
     text-decoration: none; 
+    outline: none;
+}
+.ourWorkClient .a:hover{
+
+    border: 2px solid #000;
+}
+.ourWorkClient .a img{
+    height: auto;
+    width: 150px;
     outline: none;
 }
