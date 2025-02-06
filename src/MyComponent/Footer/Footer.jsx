@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import logo from './Images/Nhancio.png'
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <section className="footer" id="Contact">
@@ -18,10 +18,11 @@ const Footer = () => {
             <div className="quick-links">
               <h2>Quick Links</h2>
               <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#aboutUs">About</a></li>
+                <li><a href="/">Home</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#contactUsHomePage">Contact</a></li>
+                <li><a href="#aboutUs">About Us</a></li>
+                <li><a href="#contactUsHomePage">Contact Us</a></li>
+                <li><Link to="/Career">Careers</Link></li>
               </ul>
             </div>
             

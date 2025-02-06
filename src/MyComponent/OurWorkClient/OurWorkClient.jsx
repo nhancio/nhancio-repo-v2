@@ -11,6 +11,7 @@ export const OurWorkClient = () => {
         <div>
           <h1>Our Client</h1>
         </div>
+        <div className="client">
         <a href="http://Nhancio.com" target="_blank" rel="noopener noreferrer">
           <img src={i1} alt="HomeMates Logo" />
         </a>
@@ -20,6 +21,8 @@ export const OurWorkClient = () => {
         <a href="http://Nhancio.com" target="_blank" rel="noopener noreferrer">
           <img src={i3} alt="HomeMates Logo" />
         </a>
+        </div>
+        
       </div>
 
 

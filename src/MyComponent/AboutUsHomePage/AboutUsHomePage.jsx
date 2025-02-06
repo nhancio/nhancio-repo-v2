@@ -44,7 +44,7 @@ const AboutUsHomePage = () => {
               goals.
             </p>
 
-            <button className="more-details-btn">More Details</button>
+            {/* <button className="more-details-btn">More Details</button> */}
           </div>
         </div>
       </section>

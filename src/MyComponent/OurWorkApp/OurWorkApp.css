@@ -9,3 +9,19 @@
     text-decoration: none; 
     outline: none;
 }
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+@media (min-width: 1200px) {
+   .ourWorkApp .h1, h1 {
+        font-size: 2.5rem;
+        /* margin: auto; */
+        display: flex;
+        justify-content: center;
+        /* padding: 0rem; */
+    }
+}
