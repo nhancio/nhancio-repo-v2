@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import Services from '../Services/Services'
+import Incubation from '../Incubation/Incubation'
 import ChooseUs from '../ChooseUs/ChooseUs'
 import OurWork from '../OurWork/OurWork'
 import Footer from '../Footer/Footer'
@@ -14,6 +15,7 @@ const HomePage = () => {
       <Navbar/>
       <Home/>
       <Services/>
+     <Incubation/>
       <ChooseUs/>
       <OurWork/>
       <AboutUs/>
