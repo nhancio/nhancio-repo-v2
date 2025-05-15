@@ -15,11 +15,11 @@ export const ContactUsHomePage = () => {
            
           <div className="contact-item contactUsFont">
             <i className="fas fa-phone"></i>
-            <span>+91 8247816401</span>
+            <span>+91 7095288950</span>
           </div>
           <div className="contact-item">
             <i className="fas fa-envelope"></i>
-            <span>team@nhancio.com</span>
+            <span>hello@nhancio.com</span>
           </div>
           <div className="contact-item">
             <i className="fas fa-map-marker-alt"></i>

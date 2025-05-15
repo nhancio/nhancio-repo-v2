@@ -33,13 +33,13 @@ const OurWork = () => {
           className={`sidebar-button ${activeComponent === "project" ? "active" :""}`}
           onClick={() => setActiveComponent("project")}
         >
-          Project
+          {/* Project
         </button>
         <button
           type="button"
           className={`sidebar-button ${ activeComponent === "client" ? "active":" " }`}
           onClick={() => setActiveComponent("client")}
-        >
+        > */}
           Client
         </button>
         <button

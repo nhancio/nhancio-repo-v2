@@ -14,7 +14,7 @@ export const OurWorkProject = () => {
         <a href="http://nhancio.com" target="_blank" rel="noopener noreferrer">
           <img src={NhancioLogo} alt="Nhancio Logo" />
           </a>
-      <a href="http://Learn.nhancio.com" target="_blank" rel="noopener noreferrer">
+      <a href="http://learn.nhancio.com" target="_blank" rel="noopener noreferrer">
           <img src={NhancioLogo} alt="Nhancio Logo" />
           {/* <h1>Learn Nhancio</h1> */}
           </a>
